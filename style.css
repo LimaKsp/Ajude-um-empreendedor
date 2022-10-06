@@ -1,0 +1,87 @@
+body {
+   margin: 0;
+   background-image: url(papel\ de\ parede.jpg);
+   text-align: center;
+}
+nav {
+   display: flex;
+}
+
+/* navegação */
+.topnav {
+   display: flex;
+   background-image: url(coracao.jpg);
+   align-items: center;
+   width: 100%;
+   justify-content: start;
+   /*aqui vc muda o espaçamento das imagem com os links na barra de navegação */
+   gap: 100px;
+   max-width: 100%;
+}
+
+footer {
+   height: 60px;
+   width: 100%;
+   position: absolute;
+   margin-bottom: 40px;
+   background-image: url(coracoes.jpg);
+   justify-items: center;
+   align-items: center;
+}
+
+.logo {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   float: left;
+   margin-left: 50px;
+}
+
+a {
+   margin-left: 25px;
+   font-size: 30px;
+   color: white;
+   text-decoration: none;
+   font-family: arial;
+   display: flex;
+}
+
+/* div dos links na barra de navegação */
+.navegacao {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+/* div imagem na barra de navegação */
+/* .imagnav {} */
+.icone {
+   height: 50px;
+   border-radius: 50%;
+}
+
+
+
+.container {
+display: flex;
+}
+
+/* box imagens inicio */
+div.box {
+display: flex;
+flex-direction: row;
+margin-left: 10px;
+justify-content: center;
+align-items: center
+}
+
+/*Imagens inicio */
+.imagem-responsiva {
+   display: flex;
+   width: 150px;
+   height: 150px;
+   border-radius: 15%;
+   margin-left: 30px;
+   justify-content: center;
+}
