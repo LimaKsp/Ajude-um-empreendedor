@@ -1,92 +1,122 @@
 body {
-    margin: 0;
-    background-image: url(../IMAGENS/papeldeparede.jpg);
-    width: 100%;
-    text-align: center;
- }
- 
- .estilo{
-    width: 100% ;
- }
- 
- /* navegação */
- .topnav {
-    display: flex;
-    background-image: url(../IMAGENS/heart.jpg); 
-    background-color: red;
-    width: 100%;
-    justify-content: start;
-    /*aqui vc muda o espaçamento das imagem com os links na barra de navegação */
- }
- footer {
-    display: flex;
-    height: auto;
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0 fixed;
-    background-color: red;
-    background-image: url(../IMAGENS/heart.jpg);
-    justify-content: center;
-    margin-block-end: auto;
- }
- .logo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    float: left;
-    margin-left: 50px;
- }
- a {
-    margin-left: 25px;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    font-family: arial;
-    display: flex;
- }
- /* div dos links na barra de navegação */
- .navegacao {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
- }
- 
- /* div imagem na barra de navegação */
- /* .imagnav {} */
- .icone {
-    height: 50px;
-    border-radius: 50%;
-    margin-left: calc(50%);
-    flex-direction: column;
- }
- 
- 
- 
- .container {
-    display: flex;
-    margin-top: calc(10%);
-    margin-bottom: calc(100%);
- }
- 
- /* box imagens inicio */
- div.box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    justify-content: center;
-    align-items: center
- 
- }
- 
- /*Imagens inicio */
- .imagem-responsiva {
-    display: flex;
-    width: 150px;
-    height: 150px;
-    border-radius: 15%;
-    margin-left: 30px;
-    justify-content: center;
- }
+   margin: 0;
+   background-image: url(../IMAGENS/papeldeparede.jpg);
+   width: 100%;
+   text-align: center;
+   font-size: larger;
+   max-height: 720px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.estilo {
+   width: 100%;
+}
+
+/* navegação */
+.topnav {
+   display: flex;
+   background-image: url(../IMAGENS/heart.jpg);
+   background-color: red;
+   width: 100%;
+   justify-content: start;
+   /*aqui vc muda o espaçamento das imagem com os links na barra de navegação */
+}
+
+
+/* Área destinada ao Rodapé, com background específico */
+footer {
+   display: flex;
+   height: auto;
+   width: 100%;
+   position: absolute;
+   margin-bottom: 0 fixed;
+   background-color: red;
+   background-image: url(../IMAGENS/heart.jpg);
+   justify-content: center;
+   margin-block-end: auto;
+
+}
+
+/*Logo principal*/
+.logo {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   float: left;
+   margin-left: 50px;
+}
+
+/* Formatação botões Header */
+a {
+   margin-left: 25px;
+   font-size: 30px;
+   color: white;
+   text-decoration: none;
+   font-family: arial;
+   display: flex;
+}
+
+/* div dos links na barra de navegação */
+.navegacao {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+/* div imagem na barra de navegação */
+/* .imagnav {} */
+.icone {
+   height: 50px;
+   border-radius: 50%;
+   margin-left: calc(50%);
+   flex-direction: column;
+}
+
+
+
+.container {
+   /* display: flex; */
+   margin-top: calc(10%);
+   margin-bottom: calc(24%);
+}
+
+/* box imagens inicio */
+div.box {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: 10px;
+   justify-content: center;
+   align-items: center
+}
+
+/*Imagens inicio */
+.imagem-responsiva {
+   display: flex;
+   width: 150px;
+   height: 150px;
+   border-radius: 15%;
+   margin-left: 30px;
+   justify-content: center;
+}
+
+/* Área referente ao cardápio */
+.cardapio {
+   width: 1000px;
+   height: 750px;
+   text-align: center;
+   margin: 0% auto;
+}
+
+td,
+th {
+   border: 1px solid black;
+   text-align: center;
+   padding: 8px;
+}
+
+tr:nth-child(even) {
+   background-color: yellow;
+}
