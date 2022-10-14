@@ -7,40 +7,104 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="CSS\estilo.css" rel="stylesheet">
   <title>Janaland Lanches</title>
-
+  <script src="oi.js"></script>
 </head>
 
 <body>
-    <div class="topnav">
-      <div class="imgnav">
-        <img src="IMAGENS\logo-oficial.jpg" class="logo">
-      </div>
-      <div class="navegacao">
-        <a href="/">Inicio</a>
-        <a href="/sobre"> Menu</a>
-        <a href="/contato">Lanches</a>
-        <a href="/formacao">Bebidas</a>
-        <a href="/projetos">Sobremesas</a>
-        <a href="/projetos">Contato</a>
-      </div>
+  <div class="topnav">
+    <div class="imgnav">
+      <img src="IMAGENS\logo-oficial.jpg" class="logo">
     </div>
-    <div class="container">
-      <div class="box">
-        <p> <img src="IMAGENS\gelatina.jpg" class="imagem-responsiva" alt="Imagem 01"> </p>
-        <p> <img src="IMAGENS\empadão.jpg" class="imagem-responsiva" alt="Imagem 02"> </p>
-        <p> <img src="IMAGENS\sanduiche.jpg" class="imagem-responsiva" alt="Imagem 03"> </p>
-        <p> <img src="IMAGENS\bolinho-bacalhau.jpg" class="imagem-responsiva" alt="Imagem 04"> </p>
-        <p> <img src="IMAGENS\fritas.jpg" class="imagem-responsiva" alt="Imagem 05"> </p>
-        <p> <img src="IMAGENS\caldos.jpg" class="imagem-responsiva" alt="Imagem 06"> </p>
-        <p> <img src="IMAGENS\fritas.jpg" class="imagem-responsiva" alt="Imagem 07"> </p>
-      </div>
+    <div class="navegacao">
+      <a href="index.html">Home</a>
+      <a href="HTML\menu.html">Cardápio</a>
+      <a href="HTML\lanches.html">Lanches</a>
+      <a href="HTML\bebidas.html">Bebidas</a>
+      <a href="HTML\sobremesas.html">Sobremesas</a>
+      <a href="HTML\Contato.html">Contato</a>
     </div>
-    </div>
+  </div>
+  <div class="container2">
+    <div class="slider">
+      <!-- Carrossel de imagens  -->
+      <div class="slides">
+        <!-- radio buttons -->
+        <input type="radio" name="radio-btn" id="radio1" checked>
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <input type="radio" name="radio-btn" id="radio7">
+        <!-- fim riadio buttons -->
+        <div class="slide first">
+          <img src="IMAGENS\bolinho-bacalhau.jpg" alt="bolinho" />
+        </div>
+        <div class="slide">
+          <img src="IMAGENS\caldos.jpg" alt="caldos" />
+        </div>
+        <div class="slide">
+          <img src="IMAGENS\empadão.jpg" alt="empadão" />
+        </div>
+        <div class="slide">
+          <img src="IMAGENS\fritas.jpg" alt="fritas" />
+        </div>
+        <div class="slide">
+          <img src="IMAGENS\gelatina.jpg" alt="gelatina" />
+        </div>
+        <div class="slide">
+          <img src="IMAGENS\pastel.jpg" alt="pastel" />
+        </div>
+        <div class="slide">
+          <img src="IMAGENS\sanduiche.jpg" alt="sanduiche" />
+        </div>
+        <!-- fim das imagens -->
+        <!-- navigation auto -->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+          <div class="auto-btn6"></div>
+          <div class="auto-btn7"></div>
+        </div>
 
-<footer>
-  <a href=""><img src="IMAGENS\logo-fb.jpg" alt="Facebook" class="icone"></a>
-  <a href=""><img src="IMAGENS\logo-insta.jpg" alt="Instagram" class="icone"></a>
-  <a href=""><img src="IMAGENS\logo-whats.jpg" alt="Whatsapp" class="icone"></a>
-</footer>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+        <label for="radio6" class="manual-btn"></label>
+        <label for="radio7" class="manual-btn"></label>
+      </div>
+
+    </div>
+    <div class="texto1">
+      <p>Somos uma típica pensão e lanchonete,situada na Zona Oeste do Rio de Janeiro
+      </p>
+      <p>
+        Nosso proposta é poder proporcionar uma nova experiência gastronômica para você,com a nossa enorme variedade de
+        pratos.
+      </p>
+      <p>
+        Utilizando ingredientes selecionados e da melhor qualidade, A Janaland se tornou sinônimo de qualidade
+      </p>
+
+      <p>
+        venha ter essa saborosa experiência conosco!
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <a href=""><img src="IMAGENS\logo-fb.jpg" alt="Facebook" class="icone"></a>
+    <a href=""><img src="IMAGENS\logo-insta.jpg" alt="Instagram" class="icone"></a>
+    <a href=""><img src="IMAGENS\logo-whats.jpg" alt="Whatsapp" class="icone"></a>
+  </footer>
 </body>
+
 </html>
