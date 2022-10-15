@@ -1,92 +1,292 @@
 body {
-    margin: 0;
-    background-image: url(../IMAGENS/papeldeparede.jpg);
-    width: 100%;
-    text-align: center;
- }
- 
- .estilo{
-    width: 100% ;
- }
- 
- /* navegação */
- .topnav {
-    display: flex;
-    background-image: url(../IMAGENS/heart.jpg); 
-    background-color: red;
-    width: 100%;
-    justify-content: start;
-    /*aqui vc muda o espaçamento das imagem com os links na barra de navegação */
- }
- footer {
-    display: flex;
-    height: auto;
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0 fixed;
-    background-color: red;
-    background-image: url(../IMAGENS/heart.jpg);
-    justify-content: center;
-    margin-block-end: auto;
- }
- .logo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    float: left;
-    margin-left: 50px;
- }
- a {
-    margin-left: 25px;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    font-family: arial;
-    display: flex;
- }
- /* div dos links na barra de navegação */
- .navegacao {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
- }
- 
- /* div imagem na barra de navegação */
- /* .imagnav {} */
- .icone {
-    height: 50px;
-    border-radius: 50%;
-    margin-left: calc(50%);
-    flex-direction: column;
- }
- 
- 
- 
- .container {
-    display: flex;
-    margin-top: calc(10%);
-    margin-bottom: calc(100%);
- }
- 
- /* box imagens inicio */
- div.box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    justify-content: center;
-    align-items: center
- 
- }
- 
- /*Imagens inicio */
- .imagem-responsiva {
-    display: flex;
-    width: 150px;
-    height: 150px;
-    border-radius: 15%;
-    margin-left: 30px;
-    justify-content: center;
- }
+   margin: 0;
+   background-image: url(../IMAGENS/papeldeparede.jpg);
+   width: 100%;
+   text-align: center;
+   font-size: larger;
+   max-height: 720px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.estilo {
+   width: 100%;
+}
+
+/* navegação */
+.topnav {
+   display: flex;
+   background-image: url(../IMAGENS/heart.jpg);
+   background-color: red;
+   width: 100%;
+   justify-content: start;
+   /*aqui vc muda o espaçamento das imagem com os links na barra de navegação */
+}
+
+
+/* Área destinada ao Rodapé, com background específico */
+footer {
+   display: flex;
+   height: auto;
+   width: 100%;
+   position: absolute;
+   margin-bottom: 0 fixed;
+   background-color: red;
+   background-image: url(../IMAGENS/heart.jpg);
+   justify-content: center;
+   margin-block-end: auto;
+
+
+}
+
+/*Logo principal*/
+.logo {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   float: left;
+   margin-left: 50px;
+}
+
+/* Formatação botões Header */
+a {
+   margin-left: 25px;
+   font-size: 30px;
+   color: white;
+   text-decoration: none;
+   font-family: arial;
+   display: flex;
+}
+
+/* div dos links na barra de navegação */
+.navegacao {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+/* div imagem na barra de navegação */
+/* .imagnav {} */
+.icone {
+   height: 50px;
+   border-radius: 50%;
+   margin-left: calc(50%);
+   flex-direction: column;
+}
+
+
+
+.container {
+   /* display: flex; */
+   margin-top: calc(10%);
+   margin-bottom: calc(24%);
+}
+
+/* box imagens inicio */
+div.box {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: 10px;
+   justify-content: center;
+   align-items: center
+}
+
+/*Imagens inicio */
+.imagem-responsiva {
+   display: flex;
+   width: 150px;
+   height: 150px;
+   border-radius: 15%;
+   margin-left: 30px;
+   justify-content: center;
+}
+
+/* Área referente ao cardápio */
+.cardapio {
+   width: 1000px;
+   text-align: center;
+   margin: 0% auto;
+}
+
+td,
+th {
+   border: 1px solid black;
+   text-align: center;
+   padding: 8px;
+   font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+
+tr:nth-child(even) {
+   background-color: yellow;
+}
+
+tr:nth-last-child(even) {
+   background-color: rgb(243, 243, 124);
+}
+
+.bebida {
+   width: 170px;
+   border-radius: 30%
+}
+
+textarea {
+   width: 400px;
+   height: 400px;
+}
+
+/* --------------------vou tentar construir os sliders--------------- */
+.slider {
+   /* margin: 0 auto; */
+   width: 500px;
+   height: 500px;
+   overflow: hidden;
+   /* /* display: FLEX; */
+   flex-wrap: wrap;
+   /* border: black solid 30px; */
+   border-radius: 40px;
+   box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+.container2 {
+   display: flex;
+   justify-content: space-around;
+   margin-top: calc(10%);
+   margin-bottom: calc(24%);
+}
+
+.slides {
+   width: 400%;
+   height: 400px;
+   display: flex;
+}
+
+.slides input {
+   display: none;
+}
+
+.slide {
+   width: 25%;
+   position: relative;
+   transition: 2s;
+   border-radius: 50px;
+}
+
+.slide img {
+   width: 500px;
+}
+
+.texto1 {
+   width: 500PX;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.manual-navigation {
+   position: absolute;
+   width: 500px;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.manual-btn {
+   border: 2px solid gray;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+   margin-right: 40px;
+}
+
+.manual-btn:hover {
+   background-color: white;
+}
+
+#radio1:checked~.first {
+   margin-left: 0;
+}
+
+#radio2:checked~.first {
+   margin-left: -25%;
+}
+
+#radio3:checked~.first {
+   margin-left: -50%;
+}
+
+#radio4:checked~.first {
+   margin-left: -75%;
+}
+
+#radio5:checked~.first {
+   margin-left: -100%;
+}
+
+#radio6:checked~.first {
+   margin-left: -125%;
+}
+
+#radio7:checked~.first {
+   margin-left: -150%;
+}
+
+.navigation-auto div {
+   border: 2px solid blue;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transform: 1s;
+}
+
+.navigation-auto {
+   position: absolute;
+   width: 500px;
+   margin-top: 450px;
+   display: flex;
+   justify-content: center;
+}
+
+.navigation-auto div:not(:Last-child) {
+   margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+   background-color: white;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+   background-color: white;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+   background-color: white;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+   background-color: white;
+}
+
+#radio5:checked~.navigation-auto .auto-btn5 {
+   background-color: white;
+}
+
+#radio6:checked~.navigation-auto .auto-btn6 {
+   background-color: white;
+}
+
+#radio7:checked~.navigation-auto .auto-btn7 {
+   background-color: white;
+}
+
+.sobremesas {
+   width: 150px;
+   border-radius: 40%;
+}
