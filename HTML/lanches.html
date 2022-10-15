@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../CSS\estilo.css" rel="stylesheet">
     <title>Lanches</title>
+    <script src="../oi.js"></script>
 
 </head>
 
-<body>
+<>
     <div class="topnav">
         <div class="imgnav">
             <img src="../IMAGENS\logo-oficial.jpg" class="logo">
@@ -24,13 +25,79 @@
             <a href="../HTML\Contato.html">Contato</a>
         </div>
     </div>
+    <div class="globo">
+        <div class="slider">
+            <!-- Carrossel de imagens  -->
+            <div class="slides">
+                <!-- radio buttons -->
+                <input type="radio" name="radio-btnL" id="radio1" checked>
+                <input type="radio" name="radio-btnL" id="radio2">
+                <input type="radio" name="radio-btnL" id="radio3">
+                <input type="radio" name="radio-btnL" id="radio4">
+                <!-- fim riadio buttons -->
+                <div class="slide first">
+                    <img src="../IMAGENS\pizza-1.jfif" alt="bolinho" />
+                </div>
+                <div class="slide">
+                    <img src="../IMAGENS\pizza-2.jfif" alt="caldos" />
+                </div>
+                <div class="slide">
+                    <img src="../IMAGENS\pizza-3.jfif" alt="empadão" />
+                </div>
+                <div class="slide">
+                    <img src="../IMAGENS\pizza-4.jfif" alt="fritas" />
+                </div>
+                <!-- fim das imagens -->
+                <!-- navigation auto -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
 
-<footer>
-    <a href="https://ne-np.facebook.com/people/janaa_land/100066336437661/"><img src="IMAGENS\logo-fb.jpg"
-            alt="Facebook" class="icone"></a>
-    <a href="https://www.instagram.com/janalandlanches/?next=%2F"><img src="IMAGENS\logo-insta.jpg" alt="Instagram"
-            class="icone"></a>
-    <a
-        href=" https://api.whatsapp.com/send/?phone=5521998916989&text=Janaland+agradece+sua+prefer%C3%AAncia&type=phone_number&app_absent=0"><img
-            src="IMAGENS\logo-whats.jpg" alt="Whatsapp" class="icone"></a>
-</footer>
+                </div>
+
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+
+        <table class="lanches">
+            <tr>
+                <th>Combos</th>
+                <th>Valores</th>
+                <th>Sabores</th>
+            </tr>
+            <tr>
+                <td>2 pizzas grandes de 30 cm + 1 refrigerante 2l</td>
+                <td>39,90</td>
+            </tr>
+            <tr>
+                <td>Duas de pizza maracanã 45 cm + 1 refrigerante de 2l</td>
+                <td>68,00</td>
+            </tr>
+            <tr>
+                <td>2 pizzas gigantes 40 cm + 1 refrigerante de 2 l </td>
+                <td>58,00</td>
+            </tr>
+            <tr>
+                <td>2 pizzas familia 35 cm + 1 refrigerante de 2 l </td>
+                <td>49,90</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </body>
+
+    <footer>
+        <a href=""><img src="../IMAGENS\logo-fb.jpg" alt="Facebook" class="icone"></a>
+        <a href=""><img src="../IMAGENS\logo-insta.jpg" alt="Instagram" class="icone"></a>
+        <a href=""><img src="../IMAGENS\logo-whats.jpg" alt="Whatsapp" class="icone"></a>
+    </footer>
+
+</html>
