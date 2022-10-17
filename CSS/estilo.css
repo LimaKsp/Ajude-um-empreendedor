@@ -156,6 +156,7 @@ textarea {
    justify-content: space-around;
    margin-top: calc(10%);
    margin-bottom: calc(24%);
+    align-items: center;
 }
 
 .slides {
@@ -184,6 +185,9 @@ textarea {
    text-align: center;
    display: flex;
    flex-wrap: wrap;
+     background-color: rgb(243, 243, 124);
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
 .manual-navigation {
